@@ -27,10 +27,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
 
-# Bootanimation
-TARGET_SCREEN_WIDTH := 480
-TARGET_SCREEN_HEIGHT := 800
-
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
@@ -39,10 +35,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=2m
-
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
