@@ -37,8 +37,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom usb_id_pin_rework=true no_cons
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
 TARGET_KERNEL_CONFIG := celox_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+TARGET_KERNEL_SOURCE := kernel/samsung/msm8660
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
