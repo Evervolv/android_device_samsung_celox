@@ -5,8 +5,8 @@
     "dep_type": "device"
   },
   {
-    "repository": "android_kernel_samsung_msm8660",
-    "target_path": "kernel/samsung/msm8660",
+    "repository": "android_kernel_htc_msm8960",
+    "target_path": "kernel/htc/msm8960",
     "dep_type": "kernel"
   }
 ]
