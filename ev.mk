@@ -13,17 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Call this first so apn list is actually copied
-$(call inherit-product, $(SRC_EVERVOLV_DIR)/config/apns.mk)
-
 # Product makefile
 $(call inherit-product, device/samsung/celox/full_celox.mk)
 
 # Inherit some common evervolv stuff.
 $(call inherit-product, $(SRC_EVERVOLV_DIR)/config/common_full_phone.mk)
-
-# Pull all dictionaries
-$(call inherit-product, $(SRC_EVERVOLV_DIR)/config/dictionaries/intl.mk)
 
 # Bootanimation
 BOOT_ANIMATION_SIZE := wvga
