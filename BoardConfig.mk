@@ -58,4 +58,4 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/celox/releasetools
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/samsung/celox/sepolicy
+# BOARD_SEPOLICY_DIRS += device/samsung/celox/sepolicy
